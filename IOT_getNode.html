@@ -1,0 +1,32 @@
+<script type="text/javascript">
+    RED.nodes.registerType('Get',{
+        category: 'IOT Control_center',
+        color: '#6F7CFF',
+        defaults: {
+            name: {value:""},
+            ip: {value:"", required:true}
+        },
+        inputs:0,
+        outputs:1,
+        icon: "fa-angle-right.png",
+        label: function() {
+            return this.name||"Get";
+        }
+    });
+</script>
+
+<script type="text/html" data-template-name="Get">
+    <div class="form-row">
+        <label for="node-output-name"><i class="fa fa-tag"></i> Name</label>
+        <input type="text" id="node-input-name" placeholder="Name">
+    </div>
+
+    <div class="form-row">
+        <label for="node-input-ip"><i class="fa fa-location-arrow"></i> IP-address</label>
+        <input type="text" id="node-input-ip" placeholder="127.0.0.1">
+    </div>
+</script>
+
+<script type="text/html" data-help-name="Get">
+    <p>A simple node that converts the message payloads into all upper-case characters</p>
+</script>

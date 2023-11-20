@@ -1,0 +1,27 @@
+{
+  "name": "node-red-contrib-iot-controlcenter",
+  "version": "1.0.0",
+  "description": "Data exchange from node-red to control center",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/M1khailF/node-red-contrib-iot-controlcenter.git"
+  },
+  "keywords": [
+    "iot",
+    "controlcenter"
+  ],
+  "author": "Mikhail Filchenkov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/M1khailF/node-red-contrib-iot-controlcenter/issues"
+  },
+  "homepage": "https://github.com/M1khailF/node-red-contrib-iot-controlcenter#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "request": "^2.88.2"
+  }
+}
