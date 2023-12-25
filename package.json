@@ -12,7 +12,8 @@
   },
   "keywords": [
     "iot",
-    "controlcenter"
+    "controlcenter",
+    "node-red"
   ],
   "author": "Mikhail Filchenkov",
   "license": "ISC",
