@@ -15,6 +15,13 @@
     "controlcenter",
     "node-red"
   ],
+  "node-red"     : {
+    "nodes": {
+        "Send": "IOT_connectNode.js",
+        "Get": "IOT_getNode.js"
+    }
+  },
+
   "author": "Mikhail Filchenkov",
   "license": "ISC",
   "bugs": {
